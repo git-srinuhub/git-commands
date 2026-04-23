@@ -1,0 +1,10 @@
+git init  => Initialise the Git monitoring on that folder
+git clone  => To clone the remote repository into the local repo.
+git status  => To know the status of the files in the local repo i.e. any changes done, are changed files commited or ready to commit.
+git add -A  => To push the changes we made to the Staging. This will push all files in the local repo.
+git add . => This is also used to push the changes done into the staging but it only pushes the files in the current directory on which this command is executed.
+git commit -m <commit message>  => Used to commit the changes.
+git reset HEAD~  => This will reset all changes done and moves the files from the staging to the local working directory i.e. into unmonitor state.
+git rm <file-name>  => Un-stages and deletes the file.
+git reset --hard  => This will resets all changes done along with bringing back the deleted files.
+git rm --cached  => Deletes the file from the staging but not from the local repo.

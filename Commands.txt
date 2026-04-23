@@ -8,6 +8,9 @@ git reset HEAD~  => This will reset all changes done and moves the files from th
 git rm <file-name>  => Un-stages and deletes the file.
 git reset --hard  => This will resets all changes done along with bringing back the deleted files.
 git rm --cached  => Deletes the file from the staging but not from the local repo.
+
+<<From Staging>>
+
 git log => To check the commit history and other logs
 git log --oneline  => Prints the same but in short and simple.
 git branch => lists all available branch and you see * infront of branch name which indicates that you are currently on that branch

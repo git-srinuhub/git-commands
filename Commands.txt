@@ -23,3 +23,7 @@ git stash list  => Lists all stashed data
 git stash pop  => Reverts the saved data and deletes it from the stash queue.
 git stash apply  => Reverts the saved data but doesn't delete it from the stash queue.
 git stash drop  => Deletes the saved data from the queue.
+
+Commits from staging
+This commmands need to be modified a bit more....
+author: srinivas.maddichetti

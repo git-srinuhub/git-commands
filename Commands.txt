@@ -27,3 +27,4 @@ git stash drop  => Deletes the saved data from the queue.
 Commits from staging
 This commmands need to be modified a bit more....
 author: srinivas.maddichetti
+from main
